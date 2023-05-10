@@ -1,0 +1,21 @@
+:root {
+    --headline-color-on-white: orange;
+}
+
+section {
+    margin: 50px;
+    background-color: lightgray;
+    border: 2px;
+    border-color: black;
+    color: purple;
+}
+
+#hands-up {
+    float: right;
+    width: 350px;
+    padding: 15px;
+}
+
+h1 {
+    color: var(--headline-color-on-white);
+}
