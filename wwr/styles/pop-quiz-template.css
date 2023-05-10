@@ -1,21 +1,22 @@
-:root {
-    --headline-color-on-white: orange;
-}
-
 section {
     margin: 50px;
     background-color: lightgray;
     border: 2px;
     border-color: black;
-    color: purple;
+    overflow: auto;
+    padding: 15px
 }
 
-#hands-up {
+img {
     float: right;
     width: 350px;
-    padding: 15px;
+    
 }
 
 h1 {
-    color: var(--headline-color-on-white);
+    color: orange;
+}
+
+p{
+    color: purple;
 }
