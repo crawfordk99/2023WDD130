@@ -1,0 +1,10 @@
+p {
+    width: 50%;
+}
+
+.coolguy{
+    width: 58em;
+    padding: 1rem;
+    border: 1vw dashed aqua;
+    margin: 1vh;
+}

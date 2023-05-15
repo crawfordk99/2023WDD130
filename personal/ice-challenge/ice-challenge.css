@@ -1,6 +1,6 @@
 body {
     background-color: pink;
-    max-width: 1600px;
+    max-width: 500px;
     margin: 0 auto;
     text-align: center;
 }
@@ -13,6 +13,8 @@ header h1 {
 header p {
     color: white;
     font-size: 1em;
+    margin: 0 auto;
+    max-width: 450px;
 }
 
 header h2 {
@@ -27,7 +29,6 @@ header h1:hover {
 main h2 {
     color: black;
     text-align: left;
-    text-indent: 30%;
     font-size: 1.2em;
 }
 
@@ -39,6 +40,12 @@ main p{
     color: white;
     font-size: 2em;
     padding: 15px;
+    margin: 0 auto;
+    max-width: 300px;
 }
 
-
+footer p {
+    color: black;
+    margin: 0 auto;
+    max-width: 450px;
+}
