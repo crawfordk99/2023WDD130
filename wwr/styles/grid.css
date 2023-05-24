@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Quicksand:wght@300&display=swap');
+/* Set page width limit*/
+#content { 
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 80px;
+}
+
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+#hero-img {
+    width: 100%
+}
+
+.hero {
+    text-align: center;
+    color: #0d3b66;
+}
+
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+}
+
+#hero-msg h2, h4 {
+    text-align: center;
+}
+
+.hero h2 {
+    font-family: "Caveat", sans-serif, serif
+}
+
+.button-box {
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+}
+
+main section h2 {
+    color: #0d3b66;
+}
+
+#background {
+    height: 725px;
+    background-color: #0d3b66;
+}
+
+body {
+    background-color: #a1cdf4;
+    /* change the values below to your chosen font(s) */
+    font-family: "Quicksand", Arial, Helvetica;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0d3b66;
+}
+
+nav a:hover {
+    background-color: #2a6041;
+    color: #a1cdf4;
+    text-decoration: underline;
+}
+
+.book, .join {
+    background-color: black;
+    color: #a1cdf4;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin: 50px;
+    border-radius: 5px;
+}
+
+.book:hover, .join:hover {
+    background-color: #0d3b66;
+    color: white;
+    text-decoration: underline;
+}
+
+.msg {
+    background-color: #2a6041;
+    color: #a1cdf4;
+    font-size: 1.5em;
+    padding: 35px;
+}
+
+.msg h2 {
+    color: #a1cdf4;
+    font-family: "Caveat", sans-serif, serif;
+}
+
+.msg p {
+    color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+footer {
+    background-color: #2a6041;
+    color: white;
+    padding: 25px 30px;
+    margin-top: 200px;
+}
+
+#main-footer p a {
+    background-color: #0d3b66;
+    color: #a1cdf4;
+    text-decoration: none;
+}
+
+#main-footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+#main-footer p {
+    font-size: 1.2em;
+}
+
+.home-title {
+    color: #0d3b66;
+    font-size: 2em;
+    font-family: "Caveat", sans-serif, serif;
+    margin-top: 10px;
+}
+
+h4 {
+    color: #0d3b66;
+}
+
+h2 {
+    margin: 0;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #2a6041
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+.home-grid section img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.rivers-card img{
+    box-sizing: border-box;
+    size: 200px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.camping-card img {
+    box-sizing: border-box;
+    size: 200px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.rapids-card img {
+    box-sizing: border-box;
+    size: 200px;
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
