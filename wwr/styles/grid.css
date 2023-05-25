@@ -165,29 +165,36 @@ main section img {
     box-sizing: border-box;
 }
 
-.home-grid section img{
+.home-grid section {
+    margin: 0 auto;
+}
+
+.home-grid section img {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .rivers-card img{
     box-sizing: border-box;
-    size: 200px;
-    grid-column: 1/2;
-    grid-row: 1/2;
+    width: 20%;
+    grid-column: 1/2
+    
 }
 
 .camping-card img {
     box-sizing: border-box;
-    size: 200px;
+    width: 20%;
     grid-column: 2/3;
-    grid-row: 1/2;
+    
 }
 
 .rapids-card img {
     box-sizing: border-box;
-    size: 200px;
+    width: 20%;
     grid-column: 3/4;
-    grid-row: 1/2;
+    
+}
+
+main section .icon {
+    width: 5%
 }
