@@ -1,0 +1,64 @@
+body {
+    max-width: 250px;
+}
+
+img {
+    width: 100%;
+    border-bottom: 10px;
+}
+
+main {
+    margin: 0 auto;
+    text-align: center;
+}
+
+h4 {
+    color: royalblue;
+    font-size: .5em;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+h1 {
+    margin: 0 auto;
+    color: black;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+p {
+    color: gray;
+    font-size: 1em;
+    overflow: auto;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1px 1fr 1px 1fr;
+    background-color: royalblue;
+}
+
+.minutes {
+    grid-column: 1/2;
+    color: white;
+}
+
+.views {
+    grid-column: 3/4;
+    color: white;
+}
+
+.comments {
+    grid-column: 5/6;
+    color: white;
+}
+
+.space {
+    grid-column: 2/3;
+    background-color: gray;
+}
+
+.space-2 {
+    grid-column: 4/5;
+    background-color: gray;
+}
